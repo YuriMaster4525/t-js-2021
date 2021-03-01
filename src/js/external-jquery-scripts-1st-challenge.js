@@ -35,5 +35,23 @@ function box1Action() {
             var height = box.height() - sizeControl.increment;
             box.width(width);
             box.height(height);
-        });
-}
+        })
+
+/**
+ * 
+ * **TO-DO:**
+ * # Box 2 (challenge: background color control):
+            Action (mouse hover in): change background color from white to black
+            Action (mouse hover out): change background color from black to white 
+ */
+
+function changebackground() {
+    var box = $("#box-2");
+};
+    .mouseover(function() {
+        stylebackgroundColor = "black";
+    })
+    
+    .mouseout(function() {
+        stylebackgroundColor = "white";
+    });
